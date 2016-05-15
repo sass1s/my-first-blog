@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
+import time
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -125,5 +126,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 # 测试
-print('永岁飘零,殢无伤!')
-print('清香白莲素还真!')
+# count = 0
+# while count < 10:
+#     print('永岁飘零,殢无伤!')
+#     print('清香白莲素还真!')
+#     print(count)
+#     count += 1
+#     time.sleep(1)
+

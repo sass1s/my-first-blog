@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    print('永岁飘零,殢无伤!')
+    # print('永岁飘零,殢无伤!')
 
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
 

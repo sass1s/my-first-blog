@@ -31,3 +31,4 @@ application = get_wsgi_application()
 # count_proc.start()
 # 不能加此行:count_proc.join()
 # 多进程超帅啊,离成功又迈出重要的一步!
+# 关注Celery+Django
